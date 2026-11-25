@@ -18,7 +18,7 @@ CREATE TABLE IF NOT EXISTS plans (
     initiator			    TEXT,
     status			        TEXT,
     responsible_committee	TEXT,
-    passport_extra		    JSONB DEFAULT '{}'::jsonb,
+    passport_extra		    JSONB DEFAULT '{}'::jsonb, -- Номер созыва
     source_url		        TEXT
 );
 
